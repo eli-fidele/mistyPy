@@ -1,0 +1,57 @@
+\documentclass[usenames,dvipsnames]{beamer}
+\usepackage{amsmath}
+\usepackage{mathtools}
+\usepackage{bussproofs}
+\usetheme{metropolis}
+\usefonttheme[onlymath]{serif}
+\title{Harmony and Pitch Groups}
+\date{September 18th, 2020}
+\author{Ali Taqi}
+\institute{Reed Student Colloquium}
+
+\newcommand{\N}{\mathbb{N}}
+\newcommand{\Q}{\mathbb{Q}}
+
+\begin{document}
+
+  \maketitle
+  \section{Origins: The Integers}
+  %%Add quote: "And first, God made the integers."
+  \begin{frame}{Integers}
+  The integers are a set of numbers, defined as follows: \newline
+  $$\mathbb{Z} = \{...,-2,-1,0,1,2,...\}$$
+  \newline
+  However, the set of numbers we are more interested in is the natural numbers. \newline
+  $$\mathbb{N} = \{1,2,3,...\}$$
+  \end{frame}
+
+  \begin{frame}{Harmonics}
+  One main element of music is pitch. Pitch is a resonance at a particular frequency, say $f$. \newline
+  Example: $\lambda = $A4 $\Rightarrow f_\lambda = 440Hz$ \newline
+  \end{frame}
+    \begin{frame}{Harmonics}
+  In nature, there exists something called the Harmonic series. From physics, we know that a resonant body doesn't really ever resonate at a pure frequency. Instead, the frequency we perceive it as is called the fundamental frequency. 
+  
+  The harmonic series is defined as the product of some fundamental frequency and the series of natural numbers. Define the harmonic series of a given frequency $f$ to be the set:\newline 
+  $$\text{Harm}[f] = \{nf : n \in \mathbb{N}\}$$
+  \end{frame}
+      \begin{frame}{Harmonics: Example}
+      Let us dissect this notation. Let us take the same note as before, an octave lower. That is, let $\lambda = \space$ A3. So, $f_\lambda = 220Hz$. Now, recall that the natural numbers are defined as the set $\mathbb{N} = \{1,2,3,...\}$. From our definition of the set of harmonics, we obtain:
+  \begin{align*}
+  \text{Harm}[f_\lambda] &= \{(1)\cdot220Hz, (2)\cdot220Hz, (3)\cdot220Hz, ...\} \\
+  &= \{220Hz, 440Hz, 660Hz, ...\}
+  \end{align*}
+      \end{frame}
+
+\begin{frame}{Consonance and the Primes}
+The prime numbers is a subset of $\mathbb{N}$, and we denote it the set $\mathbb{P} \subset \mathbb{N}$.
+
+We can start defining some actual musical objects now. Take the subset $A  = \{1,3,5\} \subset \N$. Then the harmonic subset with respect to $A$ can be defined as: 
+\begin{align*}
+\text{Harm}_A [f] &= \{af : a \in A\} \\
+&=\{f,3f,5f\}
+\end{align*}
+
+\end{frame}
+  
+\end{document}
