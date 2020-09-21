@@ -39,7 +39,7 @@ One of the primary elements of music is pitch. A pitch, measured in $\Hz (s^{-1}
   \end{frame}
   
   \begin{frame}{Harmonics}
-  In nature, there exists something called the Harmonic series. From physics, we know that a resonant body doesn't really ever resonate at a pure frequency. Instead, the frequency we perceive it as is called the fundamental frequency. 
+  In nature, there exists something called the Harmonic Series. From physics, we know that a resonant body doesn't really ever resonate at a pure frequency. Instead, the frequency we perceive it as is called the fundamental frequency. 
   The harmonic series is defined as the product of some fundamental frequency $f$ and the series of natural numbers $\N$. Define the $\textbf{harmonic series}$ of $f$ to be the set:\newline 
   $$\text{Harm}[f] = \{nf : n \in \mathbb{N}\}$$
   \end{frame}
@@ -60,20 +60,20 @@ Now, we have the tools to start defining some basic musical objects. Take the su
 			    &=\{f,3f,5f\}
    \end{align*}
 
-The subset A is precisely the holy grail of consonance, at least in the Western canon: the major triad. The connection between our modern day musical intervals and harmonics will be discussed later. There is also a caveat, which is that there exists no practical tuning system perfectly captures tonic consonance using A for all elements non-trivial scale.
+The subset A is precisely the holy grail of consonance, at least in the Western canon: the major triad. The connection between our modern day musical intervals and harmonics will be discussed later. There is also a caveat, which is that there exists no practical tuning system that perfectly captures tonic consonance using A for all elements of some non-trivial scale.
 
   \end{frame}
   
     \begin{frame}{Harmonics: Primes}
 The prime numbers is a subset of $\mathbb{N}$, and we denote it the set $\mathbb{P} \subset \mathbb{N}$. Since $\mathbb{P}$ is a proper subset of a naturals, we may derive a unique set of harmonics, called the $\textbf{characteristic harmonics}$ of a fundamental $f$. Namely,
 $$   \text{Harm}_\Prms [f] = \{pf : p \in \mathbb{P}\} $$
-To understand why this is significant set, we will motivate the next definition, octave equivalency.
+To understand why this is a significant set, we will motivate the next definition, octave equivalency.
   \end{frame}
   
   \begin{frame}{Harmonics: Octave Equivalency}
   We may define an equivalence relation $\octave$ on the space of fundamental frequencies, called $\textbf{octave equivalency}$, as follows:
   $$ f  \octave \hat{f} \iff \exists K \in \Z : \hat{f} = 2^{K} f $$
-  The beauty of this relation is that it is cross-cultural, agreed upon in the musical traditions of almost every culture if not all. The quick reasoning for this is because doubling some frequency $f$ is the same action as taking the first non-fundamental element from its harmonic series, $\harm [f]: 2f$.
+  The beauty of this relation is that it is cross-cultural, agreed upon in the musical traditions of almost every culture if not all. The quick reasoning for this is because doubling some frequency $f$ is the same action as taking the first non-fundamental element from its harmonic series, $2f \in \harm [f]$.
   \end{frame}
   
   \begin{frame}{Intervals and the Rational Numbers}
@@ -82,18 +82,19 @@ To understand why this is significant set, we will motivate the next definition,
   
     
   \begin{frame}{Intervals and the Rational Numbers}
-  Now, we may define an extremely powerful and versatile musical object: the $\textbf{justly-intonatated interval}$, from a tonic frequency $f$ is element the set: 
+  Now, we may define an extremely powerful and versatile musical object. A $\textbf{justly-intonatated interval}$, about a tonic frequency $f$, is any element of the set: 
   
   $$ \mathbb{I}[f] = \left( \frac{p}{q} \cdot f : \frac{p}{q} \in \Q^+ \backslash \{0,1\} \right) $$
   
-  The set of intervals may be further partitioned as follows:
-  An interval is $\textit{descending}$ if its interval scalar $pq^{-1} \in (0,1)$, and $\textit{ascending}$ if $pq^{-1} \in (1,\infty)$.
+  The set of intervals may be further partitioned into two categories as follows:
+  an interval is $\textit{descending}$ if its interval scalar $pq^{-1} \in (0,1)$, and $\textit{ascending}$ if $pq^{-1} \in (1,\infty)$.
   
   \end{frame}
   
   \begin{frame}{Euler's Consonance Formula}
-  Not all intervals are created equal. 
-  \end{frame}
+  $$ E: \Q^+ \backslash \{0,1\} \rightarrow \N $$
+Define an interval as an ordered pair corresponding to its interval scalar as $\iota_i = (p_i,q_i)$. If $E(\iota_0) < E(\iota_1)$, Euler believes that this entails that $\iota_0$ is more $\textbf{consonant}$ than $\iota_1$
+    \end{frame}
   
   \section{Beauty of Standardization: 12-TET (1700AD)}
   
