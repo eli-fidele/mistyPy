@@ -1,0 +1,59 @@
+---
+title: "Introuduction: Lydian-Groups"
+author: "Ali Taqi"
+output: pdf_document
+header-includes:
+  - \newcommand{\ben}{\begin{enumerate}}
+  - \newcommand{\een}{\end{enumerate}}
+  - \newcommand{\Lyd}{\text{Lydian}}
+  - \newcommand{\Ion}{\text{Ionian}}
+  - \newcommand{\Mly}{\text{Mixolydian}}
+  - \newcommand{\Dor}{\text{Dorian}}
+  - \newcommand{\Aeo}{\text{Aeolian}}
+  - \newcommand{\Phg}{\text{Phyrgian}}
+  - \newcommand{\Loc}{\text{Locrian}}
+  - \newcommand{\N}{\mathbb{N}}
+  - \newcommand{\Z}{\mathbb{Z}}
+  - \newcommand{\Q}{\mathbb{Q}}
+  - \newcommand{\Prms}{\mathbb{P}}
+  - \newcommand{\ZtZ}{\Z/12\Z}
+  - \newcommand{\octave}{\sim_{8\text{ve}}}
+  - \newcommand{\harm}{\text{Harm}}
+  - \newcommand{\st}{\,|\,}
+  - \newcommand{\dfn}{\textbf{(Definition)}}
+  - \newcommand{\ntn}{\textbf{(Notation)}}
+  - \newcommand{\Hz}{\text{Hz}}
+---
+
+## Groups
+
+Group $G$ is a set of elements $g_i$ satisfying the four
+conditions below, relative to some binary operation. We often use
+multiplicative notation ($g_1 g_2$) or additive notation ($g_1 +
+g_2$) to represent the binary operation. For definiteness, we use
+multiplicative notation below; however, one could replace $xy$
+with $b(x,y)$ below.
+
+If the elements of $G$ satisfy the following four properties, then
+$G$ is a group.
+
+\begin{enumerate}
+\item $\exists e \in G \; \st \forall g \in G : eg = ge = g$. (Identity.)
+We often write $e=1$ for multiplicative groups, and $e = 0$ for
+additive groups.
+
+\item $\forall x,y,z \in G$ : $(xy)z = x(yz)$. (Associativity.)
+
+\item $\forall x \in G, \exists y \in G \;\st xy = yx = e$. (Inverse.)
+We write $y = x^{-1}$ for multiplication, $y = -x$ for addition.
+
+\item $\forall x,y \in G : xy \in G$. (Closure.)
+\end{enumerate}
+
+# Paper outline
+
+\begin{itemize}
+\item Prelude: The audience is both mathematicians and musicians.
+\item Introduction: Mathematical notation and Tonality
+\item $\ZtZ$ and the Chromatic Scale
+\end{itemize}
