@@ -4,7 +4,7 @@ To-Do List
 - Add a Mode feature, potentially by generalizing the transpose_notes.
 - Generalize transpose_notes to a non-12 note scale. Either use length(notes) if default is NONE; and use as an argument (may be useful for the chronological COF k-subscales.
 - Initialize the Diatonic Modes as a test.
-- For modes, possibly create a mu-indexed function that returns the mode given the Lydian root scale?
+- For modes, possibly create a µ-indexed function that returns the mode given the Lydian root scale?
 - Implement the Symmetric scales.
   
 (fifths.py)
