@@ -12,3 +12,4 @@ Currently modeled are the following objects:
 - Scales
 - Chords
 - Inversions
+- Diatonic

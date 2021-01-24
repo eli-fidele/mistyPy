@@ -1,0 +1,21 @@
+To-Do List
+
+(scales.py)
+- Add a Mode feature, potentially by generalizing the transpose_notes.
+- Generalize transpose_notes to a non-12 note scale. Either use length(notes) if default is NONE; and use as an argument (may be useful for the chronological COF k-subscales.
+- Initialize the Diatonic Modes as a test.
+- For modes, possibly create a mu-indexed function that returns the mode given the Lydian root scale?
+- Implement the Symmetric scales.
+  
+(fifths.py)
+- Figure out why 'import scales' is not working.
+- Add pentatonic scales, more generally, a k-subscale of the COF.
+
+(chords.py)
+- Create a tertiary n-stack feature of diatonic scales. (k=0 yields thirds, k=1 triads, k=2 sevenths, etc. until 13th chords)
+- Inversion feature to enumerate all possible chronological inversions of a chord.
+
+(tuning.py)
+- Create a pitch continuum class.
+- Implement n-TET tuning systems about some tuning frequency.
+- Need to create some octave labelling scheme. 
