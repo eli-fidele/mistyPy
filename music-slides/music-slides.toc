@@ -1,2 +1,0 @@
-\beamer@sectionintoc {1}{Origins: The Integers (500BC)}{2}{0}{1}
-\beamer@sectionintoc {2}{Beauty of Standardization: 12-TET (1700AD)}{13}{0}{2}
